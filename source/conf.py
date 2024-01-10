@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'RTYPE'
+project = 'Doc'
 copyright = '2024, RTYPE'
 author = 'RTYPE'
 
@@ -18,6 +18,7 @@ extensions = []
 templates_path = ['_templates']
 exclude_patterns = []
 
+root_doc = 'RTYPE-DOC'
 
 
 # -- Options for HTML output -------------------------------------------------
