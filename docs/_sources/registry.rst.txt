@@ -10,6 +10,7 @@ Contents
     Included Libraries and Their Purposes
 
 Introduction
+------------
 
 The registry.hpp file is a core part of the B-CPP-500 R-Type project. It is designed for efficient management of game entities and their components within the game's architecture, especially in a networked environment.
 File Description

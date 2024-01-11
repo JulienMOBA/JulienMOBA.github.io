@@ -3,8 +3,10 @@ zipper_iterator.hpp - Zipper Iterator for Container Synchronization
 =======================================================================
 
 .. contents:: Table of Contents
-:depth: 2
+    :depth: 2
+
 Introduction
+------------
 
 The zipper_iterator.hpp file defines the zipper_iterator template class, a sophisticated iterator tool designed to iterate over multiple containers in a synchronized manner. It is particularly useful in scenarios where elements from different containers need to be processed together.
 Template Class Design
@@ -15,12 +17,12 @@ zipper_iterator
     Purpose: Allows synchronized iteration over multiple containers.
     Template Parameters: Containers... - The types of containers to be zipped together.
     Type Definitions:
-        value_type: A std::tuple holding references to the elements of the containers.
-        reference: The reference type for value_type.
-        pointer: Void, as raw pointers are not used.
-        difference_type: Typically std::ptrdiff_t, for pointer arithmetic.
-        iterator_category: Set to std::input_iterator_tag.
-        iterator_tuple: A tuple of iterators, one for each container.
+    value_type: A std::tuple holding references to the elements of the containers.
+    reference: The reference type for value_type.
+    pointer: Void, as raw pointers are not used.
+    difference_type: Typically std::ptrdiff_t, for pointer arithmetic.
+    iterator_category: Set to std::input_iterator_tag.
+    iterator_tuple: A tuple of iterators, one for each container.
 
 Key Methods and Operators
 ^^^^^^^^^^^^^^^^^^^^^^^^^

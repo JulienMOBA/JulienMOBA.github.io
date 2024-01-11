@@ -3,14 +3,16 @@ SceneManager.cpp - Implementation of Scene Management
 =========================================================
 
 .. contents:: Table of Contents
-:depth: 2
+    :depth: 2
+
 Introduction
+------------
 
 The SceneManager.cpp file provides the implementation details for the SceneManager class defined in scene_manager.hpp. It includes the logic behind scene creation, switching, and management within the game.
 Implementation Details
 
 SceneManager Constructor
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Purpose: Initializes a SceneManager instance.
     Implementation: Sets current_scene_index to -1, indicating no scene is currently active.

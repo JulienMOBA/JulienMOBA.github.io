@@ -3,8 +3,15 @@ components.hpp - Game Component Structures
 ===================================================
 
 .. contents:: Table of Contents
-:depth: 2
+    :depth: 2
+
+.. admonition:: Title of the Admonition
+   :class: note
+
+   This is the content of the admonition block.
+
 Introduction
+------------
 
 The components.hpp file is a crucial part of the game's architecture, defining various structures representing different game components. These components are used to assign properties and behaviors to game entities.
 Structures Overview
@@ -59,7 +66,6 @@ Health
 
 Weaponized
 ^^^^^^^^^^
-
     Purpose: Assigns weapon properties to an entity.
     Attributes: Enumeration weapon, weaponLevel, nbProjectile.
 

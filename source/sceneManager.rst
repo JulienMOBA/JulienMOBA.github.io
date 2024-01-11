@@ -3,8 +3,10 @@ scene_manager.hpp - Scene Management for Game Development
 =============================================================
 
 .. contents:: Table of Contents
-:depth: 2
+    :depth: 2
+
 Introduction
+------------
 
 scene_manager.hpp is a key component in the game's architecture, responsible for managing different scenes within the game. It includes classes and structures for handling various elements like buttons, interactive elements, and static elements in a scene.
 Structures and Classes Overview
@@ -36,12 +38,12 @@ Screen
 SceneManager Class
 ^^^^^^^^^^^^^^^^^^
 
-    Purpose: Manages different scenes in the game, including scene creation, switching, and running scene systems.
-    Key Methods:
-        create_scene(): Creates a new scene and returns its index.
-        switch_scene(int scene_index): Switches to the specified scene.
-        get_current_scene(): Returns a reference to the current scene's registry.
-        run_current_scene_systems(): Executes systems for the current scene.
+Purpose: Manages different scenes in the game, including scene creation, switching, and running scene systems.
+Key Methods:
+create_scene(): Creates a new scene and returns its index.
+switch_scene(int scene_index): Switches to the specified scene.
+get_current_scene(): Returns a reference to the current scene's registry.
+run_current_scene_systems(): Executes systems for the current scene.
 
 Conclusion
 
